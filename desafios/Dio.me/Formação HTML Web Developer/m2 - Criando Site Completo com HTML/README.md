@@ -14,10 +14,10 @@ Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que v
 
 * 1 - Você deve criar um site de uma clínica médica (você escolhe a especialidade)
 * 2 - Este site deve conter o seguinte menu de navegação:
-- 2.3 - Página Principal
-- 2.4 - Sobre a clínica
-- 2.5 - Horário de Atendimento
-- 2.6 - Contato
+    * 2.3 - Página Principal
+    * 2.4 - Sobre a clínica
+    * 2.5 - Horário de Atendimento
+    * 2.6 - Contato
 * 3 - Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
 
 Abaixo como cada página deve ser criada e estruturada.
