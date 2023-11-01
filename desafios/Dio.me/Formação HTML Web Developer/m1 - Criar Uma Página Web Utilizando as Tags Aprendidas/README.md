@@ -16,6 +16,9 @@ Primeiro defini o início de um documento HTML e inclui a seção `<head>`, que 
 ```
 <!DOCTYPE html>
 <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Perfil Profissional">
+    <meta name="author" content="Matheus Rodrigues">
 </head>
 ```
 
