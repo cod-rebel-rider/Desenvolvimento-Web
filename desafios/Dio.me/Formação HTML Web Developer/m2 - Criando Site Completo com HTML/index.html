@@ -1,7 +1,85 @@
 <!DOCTYPE html>
+<html>
 <head>
-
+    <meta charset="UTF-8">
+    <title>Clínica Médica X</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1>Clínica Médica X</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#paginaPrincipal">Página Principal</a></li>
+            <li><a href="#sobreClinica">Sobre a Clínica</a></li>
+            <li><a href="#horarioAtendimento">Horário de Atendimento</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div id="paginaPrincipal">
+        <h2>Página Principal</h2>
+        <p>Bem-vindo à Clínica Médica X. Oferecemos serviços de qualidade para cuidar da sua saúde.</p>
+    </div>
+
+    <div id="sobreClinica">
+        <h2>Sobre a Clínica</h2>
+        <p>Nossa clínica é dedicada a fornecer atendimento médico de alta qualidade em diversas especialidades. Contamos
+            com uma equipe de médicos experientes e dedicados para cuidar da sua saúde.</p>
+    </div>
+
+    <div id="horarioAtendimento">
+        <h2>Horário de Atendimento</h2>
+        <table>
+            <tr>
+                <th>Dia da Semana</th>
+                <th>Horário</th>
+            </tr>
+            <tr>
+                <td>Segunda-feira</td>
+                <td>8:00 - 18:00</td>
+            </tr>
+            <tr>
+                <td>Terça-feira</td>
+                <td>8:00 - 18:00</td>
+            </tr>
+            <tr>
+                <td>Quarta-feira</td>
+                <td>8:00 - 18:00</td>
+            </tr>
+            <tr>
+                <td>Quinta-feira</td>
+                <td>8:00 - 18:00</td>
+            </tr>
+            <tr>
+                <td>Sexta-feira</td>
+                <td>8:00 - 18:00</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para marcar uma consulta ou esclarecer suas dúvidas.</p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Clínica Médica X</p>
+    </footer>
 </body>
+
+</html>
