@@ -12,15 +12,25 @@ O objetivo é "corrigir" o código html para deixar ele com `semántica` e `aces
 
 ## Explicando Meu Código
 
-```
-EM CONSTRUÇÃO
-```
+Neste código, fiz as seguintes alterações para tornar o HTML semanticamente correto:
+
+* O logotipo agora está dentro de um elemento `<header>`, que é apropriado para o cabeçalho da página.
+
+* O conteúdo principal da página está dentro de um elemento `<main>`, indicando a seção principal do conteúdo.
+
+* O menu de navegação lateral está dentro de um elemento `<nav>`, que é adequado para menus de navegação.
+
+* O conteúdo principal da página agora está dentro de um elemento `<section>`, indicando uma seção autônoma do conteúdo.
+
+* O bloco de âncoras está dentro de um elemento `<aside>`, indicando conteúdo relacionado, mas não essencial para a compreensão do conteúdo principal.
+
+* O rodapé da página está dentro de um elemento `<footer>`, indicando que é o rodapé da página.
+
+Estas alterações tornam o código HTML mais semântico e facilitam a compreensão do significado de cada parte da página.
 
 ## Conclusão
 
-```
-EM CONSTRUÇÃO
-```
+Agradeço pelo interesse em ler até aqui. Não se esqueça de deixar uma __estrela__ no meu __repositório__ e me seguir no __GitHub__ e nas minhas outras __redes sociais__.
 
 ## Sobre o Bootcamp
 ![Formação HTML Web Developer](https://hermes.dio.me/tracks/cover/8696d681-011b-4860-a19e-575ac016c00e.png)
